@@ -95,7 +95,7 @@ function orderIncrement(id){
     <div class="indie-item">
         <div class="collection">
             <h4>${menuArray[id].name}<h4>
-            <p data-re${menuArray[id].name}="${menuArray[id].id}">Remove</p>
+            <p data-re${menuArray[id].name}="${menuArray[id].id}" class="remove">Remove</p>
         </div>
         <p>$${menuArray[id].price}</p>
     <div>
