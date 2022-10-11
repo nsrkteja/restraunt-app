@@ -1,0 +1,39 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <img class="header-img" src="images/ferks-guare-KEZdWfYD-ow-unsplash.jpg">
+                <h2 class="title">Jimmy's Dinner</h2>
+                <h4 class="sub-title">The best burgers and pizzas in town.</h4>
+            </header>
+            <section id="items" class="items">
+            </section>
+            <section class="order-details" id="order">
+                <h4 class="foot-head">Your Order</h4>
+                <div id="order-items" class="order-items">
+                </div>
+                <div class="total">
+                    <h4>Total:</h4>
+                    <h4 id="total"></h4>
+                </div>
+                <button class="btn" id="complete">Complete Order</button>
+            </section>
+            <section class="modal-sec" id="modal-sec">
+                <div class="modal" id="modal">
+                    <h2>Enter card details</h2>
+                    <div class="modal-form">
+                        <input type="text" name="fullName" id="fullName" placeholder="Enter your name" required>
+                        <input type="text" name="cardNumber" id="cardNumber" placeholder="Enter your card number" required>
+                        <input type="password" name="cvv" id="cvv" placeholder="Enter CVV" required>
+                        <button class="btn" id="pay">Pay</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
